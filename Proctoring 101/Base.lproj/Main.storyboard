@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tsettings View Controller-->
+        <scene sceneID="WCG-kg-dvJ">
+            <objects>
+                <viewController id="x1b-o2-vgN" customClass="SATsettingsViewController" customModule="iProctor" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XAp-zS-Z2T">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="91O-dE-AEw"/>
+                    </view>
+                    <connections>
+                        <segue destination="uYL-oS-OJ9" kind="presentation" identifier="backToSAT" id="vZ0-IT-xFW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ws2-Mj-K9g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2187" y="-627"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iProctor" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="9Ll-gu-V6N"/>
+                    <connections>
+                        <segue destination="uYL-oS-OJ9" kind="presentation" identifier="satSegue" id="ELZ-WV-BvR"/>
+                        <segue destination="Ish-MK-z8j" kind="presentation" identifier="actSegue" id="44c-Uf-RD6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86" y="106"/>
+        </scene>
+        <!--Sat View Controller-->
+        <scene sceneID="vwa-cu-Jb0">
+            <objects>
+                <viewController id="uYL-oS-OJ9" customClass="satViewController" customModule="iProctor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zd7-B2-zya">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="2WL-LI-YXZ"/>
+                    </view>
+                    <connections>
+                        <segue destination="x1b-o2-vgN" kind="presentation" identifier="SATsettingSegue" id="LBj-iD-R9C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yAj-XC-h09" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1412" y="106"/>
+        </scene>
+        <!--Tsettings View Controller-->
+        <scene sceneID="19E-rR-C4S">
+            <objects>
+                <viewController id="H6S-ui-gbt" customClass="ACTsettingsViewController" customModule="iProctor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bMI-yr-I5k">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="thZ-rA-l34"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S3e-2s-jXE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2251" y="106"/>
+        </scene>
+        <!--Act View Controller-->
+        <scene sceneID="sIT-Vg-T9D">
+            <objects>
+                <viewController id="Ish-MK-z8j" customClass="actViewController" customModule="iProctor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MkW-9W-qBh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="YQE-cK-gzk"/>
+                    </view>
+                    <connections>
+                        <segue destination="H6S-ui-gbt" kind="presentation" identifier="ACTsettingSegue" id="Hbf-Da-IQY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XYM-aJ-jg0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1439" y="822"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="ELZ-WV-BvR"/>
+    </inferredMetricsTieBreakers>
+</document>

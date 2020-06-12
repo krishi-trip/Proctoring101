@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		611F9B1B2487112300C10085 /* satViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F9B1A2487112300C10085 /* satViewController.swift */; };
+		611F9B1D2487FFDA00C10085 /* SATsettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F9B1C2487FFD900C10085 /* SATsettingsViewController.swift */; };
+		6148A96C24840B6D006FBBFB /* Spartan-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6148A96B24840B6D006FBBFB /* Spartan-Medium.ttf */; };
+		6148A96E24840B7F006FBBFB /* Spartan-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6148A96D24840B7F006FBBFB /* Spartan-SemiBold.ttf */; };
+		6148A9702484102C006FBBFB /* Spartan-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6148A96F2484102C006FBBFB /* Spartan-Black.ttf */; };
+		6148A97224841033006FBBFB /* Spartan-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6148A97124841033006FBBFB /* Spartan-ExtraBold.ttf */; };
+		6148A97424841039006FBBFB /* Spartan-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6148A97324841039006FBBFB /* Spartan-ExtraLight.ttf */; };
+		6148A97624841040006FBBFB /* Spartan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6148A97524841040006FBBFB /* Spartan-Thin.ttf */; };
+		61A740D6249407570092A2B9 /* actViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A740D5249407570092A2B9 /* actViewController.swift */; };
+		61A740D824940EB10092A2B9 /* ACTsettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A740D724940EB00092A2B9 /* ACTsettingsViewController.swift */; };
+		61BCC77C2478A5E70036FB38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BCC77B2478A5E70036FB38 /* AppDelegate.swift */; };
+		61BCC77E2478A5E70036FB38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BCC77D2478A5E70036FB38 /* SceneDelegate.swift */; };
+		61BCC7802478A5E70036FB38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BCC77F2478A5E70036FB38 /* ViewController.swift */; };
+		61BCC7832478A5E70036FB38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61BCC7812478A5E70036FB38 /* Main.storyboard */; };
+		61BCC7852478A5F10036FB38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61BCC7842478A5F10036FB38 /* Assets.xcassets */; };
+		61BCC7882478A5F10036FB38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61BCC7862478A5F10036FB38 /* LaunchScreen.storyboard */; };
+		61C8E5122485900A0092EE13 /* analog-watch-alarm_daniel-simion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61C8E5112485900A0092EE13 /* analog-watch-alarm_daniel-simion.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		611F9B1A2487112300C10085 /* satViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = satViewController.swift; sourceTree = "<group>"; };
+		611F9B1C2487FFD900C10085 /* SATsettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATsettingsViewController.swift; sourceTree = "<group>"; };
+		611F9B1E2488059200C10085 /* Spartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spartan-Regular.ttf"; path = "../../../../../Downloads/Spartan (1)/static/Spartan-Regular.ttf"; sourceTree = "<group>"; };
+		611F9B1F2488059B00C10085 /* Spartan-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spartan-Bold.ttf"; path = "../../../../../Downloads/Spartan (1)/static/Spartan-Bold.ttf"; sourceTree = "<group>"; };
+		6148A96B24840B6D006FBBFB /* Spartan-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spartan-Medium.ttf"; path = "../../../../../Downloads/Spartan/static/Spartan-Medium.ttf"; sourceTree = "<group>"; };
+		6148A96D24840B7F006FBBFB /* Spartan-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spartan-SemiBold.ttf"; path = "../../../../../Downloads/Spartan/static/Spartan-SemiBold.ttf"; sourceTree = "<group>"; };
+		6148A96F2484102C006FBBFB /* Spartan-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spartan-Black.ttf"; path = "../../../../../Downloads/Spartan/static/Spartan-Black.ttf"; sourceTree = "<group>"; };
+		6148A97124841033006FBBFB /* Spartan-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spartan-ExtraBold.ttf"; path = "../../../../../Downloads/Spartan/static/Spartan-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6148A97324841039006FBBFB /* Spartan-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spartan-ExtraLight.ttf"; path = "../../../../../Downloads/Spartan/static/Spartan-ExtraLight.ttf"; sourceTree = "<group>"; };
+		6148A97524841040006FBBFB /* Spartan-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spartan-Thin.ttf"; path = "../../../../../Downloads/Spartan/static/Spartan-Thin.ttf"; sourceTree = "<group>"; };
+		61A740D5249407570092A2B9 /* actViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actViewController.swift; sourceTree = "<group>"; };
+		61A740D724940EB00092A2B9 /* ACTsettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACTsettingsViewController.swift; sourceTree = "<group>"; };
+		61BCC7782478A5E70036FB38 /* iProctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iProctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61BCC77B2478A5E70036FB38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61BCC77D2478A5E70036FB38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		61BCC77F2478A5E70036FB38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61BCC7822478A5E70036FB38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61BCC7842478A5F10036FB38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61BCC7872478A5F10036FB38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61BCC7892478A5F10036FB38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61C8E5112485900A0092EE13 /* analog-watch-alarm_daniel-simion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "analog-watch-alarm_daniel-simion.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61BCC7752478A5E60036FB38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6148A96A24840AC4006FBBFB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				611F9B1E2488059200C10085 /* Spartan-Regular.ttf */,
+				6148A96F2484102C006FBBFB /* Spartan-Black.ttf */,
+				6148A97124841033006FBBFB /* Spartan-ExtraBold.ttf */,
+				611F9B1F2488059B00C10085 /* Spartan-Bold.ttf */,
+				6148A96D24840B7F006FBBFB /* Spartan-SemiBold.ttf */,
+				6148A96B24840B6D006FBBFB /* Spartan-Medium.ttf */,
+				6148A97524841040006FBBFB /* Spartan-Thin.ttf */,
+				6148A97324841039006FBBFB /* Spartan-ExtraLight.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		61BCC76F2478A5E60036FB38 = {
+			isa = PBXGroup;
+			children = (
+				61BCC77A2478A5E70036FB38 /* Proctoring 101 */,
+				61BCC7792478A5E70036FB38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61BCC7792478A5E70036FB38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61BCC7782478A5E70036FB38 /* iProctor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61BCC77A2478A5E70036FB38 /* Proctoring 101 */ = {
+			isa = PBXGroup;
+			children = (
+				61C8E513248590130092EE13 /* Sounds */,
+				6148A96A24840AC4006FBBFB /* Fonts */,
+				61BCC77B2478A5E70036FB38 /* AppDelegate.swift */,
+				61BCC77D2478A5E70036FB38 /* SceneDelegate.swift */,
+				61BCC77F2478A5E70036FB38 /* ViewController.swift */,
+				611F9B1A2487112300C10085 /* satViewController.swift */,
+				611F9B1C2487FFD900C10085 /* SATsettingsViewController.swift */,
+				61A740D5249407570092A2B9 /* actViewController.swift */,
+				61A740D724940EB00092A2B9 /* ACTsettingsViewController.swift */,
+				61BCC7812478A5E70036FB38 /* Main.storyboard */,
+				61BCC7842478A5F10036FB38 /* Assets.xcassets */,
+				61BCC7862478A5F10036FB38 /* LaunchScreen.storyboard */,
+				61BCC7892478A5F10036FB38 /* Info.plist */,
+			);
+			path = "Proctoring 101";
+			sourceTree = "<group>";
+		};
+		61C8E513248590130092EE13 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				61C8E5112485900A0092EE13 /* analog-watch-alarm_daniel-simion.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61BCC7772478A5E60036FB38 /* Proctoring 101 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61BCC78C2478A5F10036FB38 /* Build configuration list for PBXNativeTarget "Proctoring 101" */;
+			buildPhases = (
+				61BCC7742478A5E60036FB38 /* Sources */,
+				61BCC7752478A5E60036FB38 /* Frameworks */,
+				61BCC7762478A5E60036FB38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Proctoring 101";
+			productName = "Proctoring 101";
+			productReference = 61BCC7782478A5E70036FB38 /* iProctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61BCC7702478A5E60036FB38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Krishi Tripuraneni";
+				TargetAttributes = {
+					61BCC7772478A5E60036FB38 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 61BCC7732478A5E60036FB38 /* Build configuration list for PBXProject "Proctoring 101" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61BCC76F2478A5E60036FB38;
+			productRefGroup = 61BCC7792478A5E70036FB38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61BCC7772478A5E60036FB38 /* Proctoring 101 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61BCC7762478A5E60036FB38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BCC7882478A5F10036FB38 /* LaunchScreen.storyboard in Resources */,
+				6148A96C24840B6D006FBBFB /* Spartan-Medium.ttf in Resources */,
+				6148A9702484102C006FBBFB /* Spartan-Black.ttf in Resources */,
+				6148A97224841033006FBBFB /* Spartan-ExtraBold.ttf in Resources */,
+				61C8E5122485900A0092EE13 /* analog-watch-alarm_daniel-simion.mp3 in Resources */,
+				6148A97424841039006FBBFB /* Spartan-ExtraLight.ttf in Resources */,
+				61BCC7852478A5F10036FB38 /* Assets.xcassets in Resources */,
+				61BCC7832478A5E70036FB38 /* Main.storyboard in Resources */,
+				6148A97624841040006FBBFB /* Spartan-Thin.ttf in Resources */,
+				6148A96E24840B7F006FBBFB /* Spartan-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61BCC7742478A5E60036FB38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611F9B1D2487FFDA00C10085 /* SATsettingsViewController.swift in Sources */,
+				61BCC7802478A5E70036FB38 /* ViewController.swift in Sources */,
+				611F9B1B2487112300C10085 /* satViewController.swift in Sources */,
+				61A740D824940EB10092A2B9 /* ACTsettingsViewController.swift in Sources */,
+				61BCC77C2478A5E70036FB38 /* AppDelegate.swift in Sources */,
+				61BCC77E2478A5E70036FB38 /* SceneDelegate.swift in Sources */,
+				61A740D6249407570092A2B9 /* actViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61BCC7812478A5E70036FB38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61BCC7822478A5E70036FB38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61BCC7862478A5F10036FB38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61BCC7872478A5F10036FB38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61BCC78A2478A5F10036FB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61BCC78B2478A5F10036FB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61BCC78D2478A5F10036FB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Proctoring 101/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KrishiTrip.iProctor;
+				PRODUCT_NAME = iProctor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61BCC78E2478A5F10036FB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Proctoring 101/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KrishiTrip.iProctor;
+				PRODUCT_NAME = iProctor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61BCC7732478A5E60036FB38 /* Build configuration list for PBXProject "Proctoring 101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61BCC78A2478A5F10036FB38 /* Debug */,
+				61BCC78B2478A5F10036FB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61BCC78C2478A5F10036FB38 /* Build configuration list for PBXNativeTarget "Proctoring 101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61BCC78D2478A5F10036FB38 /* Debug */,
+				61BCC78E2478A5F10036FB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61BCC7702478A5E60036FB38 /* Project object */;
+}
