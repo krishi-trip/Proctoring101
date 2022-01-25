@@ -9,12 +9,6 @@
 /* Begin PBXBuildFile section */
 		611F9B1B2487112300C10085 /* satViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F9B1A2487112300C10085 /* satViewController.swift */; };
 		611F9B1D2487FFDA00C10085 /* SATsettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F9B1C2487FFD900C10085 /* SATsettingsViewController.swift */; };
-		6148A96C24840B6D006FBBFB /* Spartan-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6148A96B24840B6D006FBBFB /* Spartan-Medium.ttf */; };
-		6148A96E24840B7F006FBBFB /* Spartan-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6148A96D24840B7F006FBBFB /* Spartan-SemiBold.ttf */; };
-		6148A9702484102C006FBBFB /* Spartan-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6148A96F2484102C006FBBFB /* Spartan-Black.ttf */; };
-		6148A97224841033006FBBFB /* Spartan-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6148A97124841033006FBBFB /* Spartan-ExtraBold.ttf */; };
-		6148A97424841039006FBBFB /* Spartan-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6148A97324841039006FBBFB /* Spartan-ExtraLight.ttf */; };
-		6148A97624841040006FBBFB /* Spartan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6148A97524841040006FBBFB /* Spartan-Thin.ttf */; };
 		61A740D6249407570092A2B9 /* actViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A740D5249407570092A2B9 /* actViewController.swift */; };
 		61A740D824940EB10092A2B9 /* ACTsettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A740D724940EB00092A2B9 /* ACTsettingsViewController.swift */; };
 		61BCC77C2478A5E70036FB38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BCC77B2478A5E70036FB38 /* AppDelegate.swift */; };
@@ -24,19 +18,22 @@
 		61BCC7852478A5F10036FB38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61BCC7842478A5F10036FB38 /* Assets.xcassets */; };
 		61BCC7882478A5F10036FB38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61BCC7862478A5F10036FB38 /* LaunchScreen.storyboard */; };
 		61C8E5122485900A0092EE13 /* analog-watch-alarm_daniel-simion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 61C8E5112485900A0092EE13 /* analog-watch-alarm_daniel-simion.mp3 */; };
+		67C03F3024E2D9BC00911AC3 /* Spartan-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67C03F2724E2D9BB00911AC3 /* Spartan-Black.ttf */; };
+		67C03F3124E2D9BC00911AC3 /* Spartan-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67C03F2824E2D9BC00911AC3 /* Spartan-Medium.ttf */; };
+		67C03F3224E2D9BC00911AC3 /* Spartan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67C03F2924E2D9BC00911AC3 /* Spartan-Thin.ttf */; };
+		67C03F3324E2D9BC00911AC3 /* Spartan-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67C03F2A24E2D9BC00911AC3 /* Spartan-SemiBold.ttf */; };
+		67C03F3424E2D9BC00911AC3 /* Spartan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67C03F2B24E2D9BC00911AC3 /* Spartan-Regular.ttf */; };
+		67C03F3524E2D9BC00911AC3 /* Spartan-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67C03F2C24E2D9BC00911AC3 /* Spartan-ExtraBold.ttf */; };
+		67C03F3624E2D9BC00911AC3 /* Spartan-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67C03F2D24E2D9BC00911AC3 /* Spartan-ExtraLight.ttf */; };
+		67C03F3724E2D9BC00911AC3 /* Spartan-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67C03F2E24E2D9BC00911AC3 /* Spartan-Light.ttf */; };
+		67C03F3824E2D9BC00911AC3 /* Spartan-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67C03F2F24E2D9BC00911AC3 /* Spartan-Bold.ttf */; };
+		67C03F3A24E43CAC00911AC3 /* icons8-time-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 67C03F3924E43CAB00911AC3 /* icons8-time-100.png */; };
+		67C03F3C24E44E2000911AC3 /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 67C03F3B24E44E2000911AC3 /* playButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		611F9B1A2487112300C10085 /* satViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = satViewController.swift; sourceTree = "<group>"; };
 		611F9B1C2487FFD900C10085 /* SATsettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATsettingsViewController.swift; sourceTree = "<group>"; };
-		611F9B1E2488059200C10085 /* Spartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spartan-Regular.ttf"; path = "../../../../../Downloads/Spartan (1)/static/Spartan-Regular.ttf"; sourceTree = "<group>"; };
-		611F9B1F2488059B00C10085 /* Spartan-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spartan-Bold.ttf"; path = "../../../../../Downloads/Spartan (1)/static/Spartan-Bold.ttf"; sourceTree = "<group>"; };
-		6148A96B24840B6D006FBBFB /* Spartan-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spartan-Medium.ttf"; path = "../../../../../Downloads/Spartan/static/Spartan-Medium.ttf"; sourceTree = "<group>"; };
-		6148A96D24840B7F006FBBFB /* Spartan-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spartan-SemiBold.ttf"; path = "../../../../../Downloads/Spartan/static/Spartan-SemiBold.ttf"; sourceTree = "<group>"; };
-		6148A96F2484102C006FBBFB /* Spartan-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spartan-Black.ttf"; path = "../../../../../Downloads/Spartan/static/Spartan-Black.ttf"; sourceTree = "<group>"; };
-		6148A97124841033006FBBFB /* Spartan-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spartan-ExtraBold.ttf"; path = "../../../../../Downloads/Spartan/static/Spartan-ExtraBold.ttf"; sourceTree = "<group>"; };
-		6148A97324841039006FBBFB /* Spartan-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spartan-ExtraLight.ttf"; path = "../../../../../Downloads/Spartan/static/Spartan-ExtraLight.ttf"; sourceTree = "<group>"; };
-		6148A97524841040006FBBFB /* Spartan-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spartan-Thin.ttf"; path = "../../../../../Downloads/Spartan/static/Spartan-Thin.ttf"; sourceTree = "<group>"; };
 		61A740D5249407570092A2B9 /* actViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actViewController.swift; sourceTree = "<group>"; };
 		61A740D724940EB00092A2B9 /* ACTsettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACTsettingsViewController.swift; sourceTree = "<group>"; };
 		61BCC7782478A5E70036FB38 /* iProctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iProctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +45,17 @@
 		61BCC7872478A5F10036FB38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61BCC7892478A5F10036FB38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61C8E5112485900A0092EE13 /* analog-watch-alarm_daniel-simion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "analog-watch-alarm_daniel-simion.mp3"; sourceTree = "<group>"; };
+		67C03F2724E2D9BB00911AC3 /* Spartan-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spartan-Black.ttf"; sourceTree = "<group>"; };
+		67C03F2824E2D9BC00911AC3 /* Spartan-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spartan-Medium.ttf"; sourceTree = "<group>"; };
+		67C03F2924E2D9BC00911AC3 /* Spartan-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spartan-Thin.ttf"; sourceTree = "<group>"; };
+		67C03F2A24E2D9BC00911AC3 /* Spartan-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spartan-SemiBold.ttf"; sourceTree = "<group>"; };
+		67C03F2B24E2D9BC00911AC3 /* Spartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spartan-Regular.ttf"; sourceTree = "<group>"; };
+		67C03F2C24E2D9BC00911AC3 /* Spartan-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spartan-ExtraBold.ttf"; sourceTree = "<group>"; };
+		67C03F2D24E2D9BC00911AC3 /* Spartan-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spartan-ExtraLight.ttf"; sourceTree = "<group>"; };
+		67C03F2E24E2D9BC00911AC3 /* Spartan-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spartan-Light.ttf"; sourceTree = "<group>"; };
+		67C03F2F24E2D9BC00911AC3 /* Spartan-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spartan-Bold.ttf"; sourceTree = "<group>"; };
+		67C03F3924E43CAB00911AC3 /* icons8-time-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-time-100.png"; sourceTree = "<group>"; };
+		67C03F3B24E44E2000911AC3 /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +72,15 @@
 		6148A96A24840AC4006FBBFB /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				611F9B1E2488059200C10085 /* Spartan-Regular.ttf */,
-				6148A96F2484102C006FBBFB /* Spartan-Black.ttf */,
-				6148A97124841033006FBBFB /* Spartan-ExtraBold.ttf */,
-				611F9B1F2488059B00C10085 /* Spartan-Bold.ttf */,
-				6148A96D24840B7F006FBBFB /* Spartan-SemiBold.ttf */,
-				6148A96B24840B6D006FBBFB /* Spartan-Medium.ttf */,
-				6148A97524841040006FBBFB /* Spartan-Thin.ttf */,
-				6148A97324841039006FBBFB /* Spartan-ExtraLight.ttf */,
+				67C03F2724E2D9BB00911AC3 /* Spartan-Black.ttf */,
+				67C03F2F24E2D9BC00911AC3 /* Spartan-Bold.ttf */,
+				67C03F2C24E2D9BC00911AC3 /* Spartan-ExtraBold.ttf */,
+				67C03F2D24E2D9BC00911AC3 /* Spartan-ExtraLight.ttf */,
+				67C03F2E24E2D9BC00911AC3 /* Spartan-Light.ttf */,
+				67C03F2824E2D9BC00911AC3 /* Spartan-Medium.ttf */,
+				67C03F2B24E2D9BC00911AC3 /* Spartan-Regular.ttf */,
+				67C03F2A24E2D9BC00911AC3 /* Spartan-SemiBold.ttf */,
+				67C03F2924E2D9BC00911AC3 /* Spartan-Thin.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -95,15 +104,14 @@
 		61BCC77A2478A5E70036FB38 /* Proctoring 101 */ = {
 			isa = PBXGroup;
 			children = (
-				61C8E513248590130092EE13 /* Sounds */,
-				6148A96A24840AC4006FBBFB /* Fonts */,
+				67C03F3D24E44E3000911AC3 /* Resources */,
 				61BCC77B2478A5E70036FB38 /* AppDelegate.swift */,
 				61BCC77D2478A5E70036FB38 /* SceneDelegate.swift */,
 				61BCC77F2478A5E70036FB38 /* ViewController.swift */,
-				611F9B1A2487112300C10085 /* satViewController.swift */,
-				611F9B1C2487FFD900C10085 /* SATsettingsViewController.swift */,
 				61A740D5249407570092A2B9 /* actViewController.swift */,
 				61A740D724940EB00092A2B9 /* ACTsettingsViewController.swift */,
+				611F9B1A2487112300C10085 /* satViewController.swift */,
+				611F9B1C2487FFD900C10085 /* SATsettingsViewController.swift */,
 				61BCC7812478A5E70036FB38 /* Main.storyboard */,
 				61BCC7842478A5F10036FB38 /* Assets.xcassets */,
 				61BCC7862478A5F10036FB38 /* LaunchScreen.storyboard */,
@@ -118,6 +126,25 @@
 				61C8E5112485900A0092EE13 /* analog-watch-alarm_daniel-simion.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		67C03F3D24E44E3000911AC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67C03F3E24E44E4C00911AC3 /* Images */,
+				6148A96A24840AC4006FBBFB /* Fonts */,
+				61C8E513248590130092EE13 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		67C03F3E24E44E4C00911AC3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				67C03F3924E43CAB00911AC3 /* icons8-time-100.png */,
+				67C03F3B24E44E2000911AC3 /* playButton.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,16 +205,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C03F3024E2D9BC00911AC3 /* Spartan-Black.ttf in Resources */,
+				67C03F3124E2D9BC00911AC3 /* Spartan-Medium.ttf in Resources */,
+				67C03F3424E2D9BC00911AC3 /* Spartan-Regular.ttf in Resources */,
+				67C03F3724E2D9BC00911AC3 /* Spartan-Light.ttf in Resources */,
 				61BCC7882478A5F10036FB38 /* LaunchScreen.storyboard in Resources */,
-				6148A96C24840B6D006FBBFB /* Spartan-Medium.ttf in Resources */,
-				6148A9702484102C006FBBFB /* Spartan-Black.ttf in Resources */,
-				6148A97224841033006FBBFB /* Spartan-ExtraBold.ttf in Resources */,
+				67C03F3224E2D9BC00911AC3 /* Spartan-Thin.ttf in Resources */,
+				67C03F3A24E43CAC00911AC3 /* icons8-time-100.png in Resources */,
+				67C03F3624E2D9BC00911AC3 /* Spartan-ExtraLight.ttf in Resources */,
 				61C8E5122485900A0092EE13 /* analog-watch-alarm_daniel-simion.mp3 in Resources */,
-				6148A97424841039006FBBFB /* Spartan-ExtraLight.ttf in Resources */,
+				67C03F3524E2D9BC00911AC3 /* Spartan-ExtraBold.ttf in Resources */,
+				67C03F3324E2D9BC00911AC3 /* Spartan-SemiBold.ttf in Resources */,
 				61BCC7852478A5F10036FB38 /* Assets.xcassets in Resources */,
+				67C03F3824E2D9BC00911AC3 /* Spartan-Bold.ttf in Resources */,
+				67C03F3C24E44E2000911AC3 /* playButton.png in Resources */,
 				61BCC7832478A5E70036FB38 /* Main.storyboard in Resources */,
-				6148A97624841040006FBBFB /* Spartan-Thin.ttf in Resources */,
-				6148A96E24840B7F006FBBFB /* Spartan-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,11 +381,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_TEAM = CMY8SA3HXC;
 				INFOPLIST_FILE = "Proctoring 101/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.KrishiTrip.iProctor;
 				PRODUCT_NAME = iProctor;
 				SWIFT_VERSION = 5.0;
@@ -366,11 +401,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_TEAM = CMY8SA3HXC;
 				INFOPLIST_FILE = "Proctoring 101/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.KrishiTrip.iProctor;
 				PRODUCT_NAME = iProctor;
 				SWIFT_VERSION = 5.0;
