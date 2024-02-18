@@ -15,7 +15,7 @@
 
 <p align="center">
 <!--     <img alt="Mangal 4 TUI" src="assets/tui.gif"> -->
-    <img alt="iProctor" src="images/logo.png" width="800">
+    <img alt="iProctor" src="images/logo.png" width="500">
 </p>
 
 
