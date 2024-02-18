@@ -1,120 +1,44 @@
+<h1 align="center">
+<strong>iProctor</strong>
+</h1>
 
-<a name="readme-top"></a>
+<!-- <p align="center"> -->
+<!--     <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> -->
+<!--     <img alt="macOS" src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0"> -->
+<!--     <img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"> -->
+<!-- </p> -->
 
-<!-- [![Contributors][contributors-shield]][contributors-url] -->
-<!-- [![Forks][forks-shield]][forks-url] -->
-<!-- [![Stargazers][stars-shield]][stars-url] -->
-<!-- [![Issues][issues-shield]][issues-url] -->
-<!-- [![MIT License][license-shield]][license-url] -->
-<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
+<h3 align="center">
+    <!-- The most advanced CLI manga downloader in the entire universe! -->
+    A dynamic way to time yourself during SAT / ACT!
+</h3>
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/krishi-trip/Proctoring101">
-    <img src="images/logo.png" alt="Logo" width="120" height="120">
-  </a>
-
-<h3 align="center">iProctor</h3>
-
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/krishi-trip/Proctoring101"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/krishi-trip/Proctoring101">View Demo</a>
-    ·
-    <a href="https://github.com/krishi-trip/Proctoring101/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/krishi-trip/Proctoring101/issues">Request Feature</a>
-  </p>
-</div>
+<p align="center">
+<!--     <img alt="Mangal 4 TUI" src="assets/tui.gif"> -->
+    <img alt="iProctor" src="images/logo.png" width="800">
+</p>
 
 
+## Table of contents
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
 
+## Features
 
+- __Caching__ - iProctor will cache as much data as possible, so you don't have to wait for it to download the same data over and over again. 
+- __4 Different export formats__ - PDF, CBZ, ZIP and plain images
+- __Fast?__ - YES.
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## Installation
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-* [![Next][Next.js]][Next-url]
-
-<!---->
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## Getting Started
-
-### Prerequisites
-
-**Requires** iOS 13.2+
-
-### Installation
-
+<!-- ### Script (Linux, MacOS, Windows) -->
 1. Install from the App Store
 2. Download source code and build app image locally
 
+
 ## Usage
 
-<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
-Work in progress
+Requires iOS 13.2+
 
-<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Add availability for mac users
-
-See the [open issues](https://github.com/krishi-trip/Proctoring101/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* [Markdown Template](https://github.com/othneildrew/Best-README-Template)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[product-screenshot]: images/screenshot.png
-<!---->
